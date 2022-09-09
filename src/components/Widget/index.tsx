@@ -5,7 +5,7 @@ import WidgetHelper from './WidgetHelper'
 const Widget = () => {
   const [switchToWidget, setSwitchToWidget] = useState(false)
 
-  return <div>{switchToWidget ? <WidgetHelper /> : <LottieAnimation setSwitchToWidget={setSwitchToWidget} />}</div>
+  return <>{switchToWidget ? <WidgetHelper /> : <LottieAnimation setSwitchToWidget={setSwitchToWidget} />}</>
 }
 
 export default Widget
