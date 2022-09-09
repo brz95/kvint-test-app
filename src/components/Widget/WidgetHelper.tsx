@@ -1,4 +1,4 @@
-const Widget = () => {
+const WidgetHelper = () => {
   return (
     <div className="widget">
       <strong>Привет</strong>
@@ -8,4 +8,4 @@ const Widget = () => {
   )
 }
 
-export default Widget
+export default WidgetHelper
