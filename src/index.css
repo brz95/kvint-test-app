@@ -5,8 +5,8 @@
 }
 
 .App {
-  width: 500px;
-  height: 200px;
+  width: 100%;
+  height: 60vh;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -15,7 +15,18 @@
 }
 
 .lottie {
-  width: 150px;
+  width: 200px;
+  animation-duration: 1.7s;
+  animation-name: lottie;
+}
+
+@keyframes lottie {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 200px;
+  }
 }
 
 .widget {
@@ -25,4 +36,15 @@
   padding: 12px;
   border-radius: 15px;
   box-shadow: 1px 10px 11px 0px rgba(34, 60, 80, 0.2);
+  animation-duration: 1.7s;
+  animation-name: widget;
+}
+
+@keyframes widget {
+  from {
+    margin-top: 5%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
 }
