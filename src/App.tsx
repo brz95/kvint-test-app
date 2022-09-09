@@ -1,12 +1,12 @@
-import { PoweroffOutlined } from "@ant-design/icons";
-import { Button } from "antd";
-import { useState } from "react";
-import Animation from "./components/Animation";
-import Widget from "./components/Widget";
+import { PoweroffOutlined } from '@ant-design/icons'
+import { Button } from 'antd'
+import { useState } from 'react'
+import Animation from './components/Animation'
+import Widget from './components/Widget'
 
 const App = () => {
-  const [loading, setLoading] = useState<boolean>(false);
-  const [switchToWidget, setSwitchToWidget] = useState<boolean>(false);
+  const [loading, setLoading] = useState(false)
+  const [switchToWidget, setSwitchToWidget] = useState(false)
 
   return (
     <div className="App">
@@ -23,7 +23,7 @@ const App = () => {
         </Button>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
